@@ -1,0 +1,34 @@
+body{
+    font-family: 'Lato', sans-serif; /*Font family é herdado para os descendentes*/
+    background-color: chocolate; /*Não é herdada*/
+    color: white; /*herdada*/
+}
+
+.codigo{
+    font-family: cursive;
+    color: blue;
+}
+
+/*
+    Prioridade = CSS define quais propriedades
+serão aplicadas ou sobrescritas
+
+inline > tag style > arquivo externo
+
+atributo style > #id > .classe > seletor de tipo
+
+*/
+
+h1, h2, h3 {
+    background-color: brown;
+    text-decoration: line-through;
+}
+.custom-h1 {
+    background-color: blue;
+
+}
+
+#meu-h1{
+    background-color: green;
+    
+}

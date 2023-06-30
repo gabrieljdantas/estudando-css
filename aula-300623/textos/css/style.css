@@ -1,0 +1,31 @@
+
+
+
+.container h1, h2, h3 {
+    text-align: justify;
+    font-style: oblique;
+    font-weight: 100;
+    color: purple;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+}
+
+.container h3 {
+    font-size: 2rem;
+}
+
+.container p{
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+/*Elemento Raiz*/
+html {
+    font-size: 16px;
+}
