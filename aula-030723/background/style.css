@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image : url("https://soulcode.com/assets/images/logo/light-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    background-image: url("https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/02/nyan-cat-1.gif");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
