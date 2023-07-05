@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+    background-color: brown;
+    display: flex; /*Ativa o flexbox*/
+    /* row or collow */
+    flex-direction: row; 
+    /* nowrap or wrap says if can wrap line */
+    flex-wrap: wrap;  
+    flex-flow: row wrap; /* Faz a mesma coisa que as duas ultimas linhas*/
+    /* Ajustar os elementos no eixo main*/
+    justify-content: space-between;
+    /* stretch, flex start, flex end, center*/
+    align-items: center; /* Ajustar os elementos no eixo cross*/
+    align-content: space-between; /* Ajusta o conteudo*/
+    height: 600px;
+}
+
+.item-1 {
+    background-color: orange;
+}
+.item-2 {
+    background-color: lightblue;
+    align-self: flex-end
+}
+.item-3 {
+    background-color: gray;
+}
+.item-4 {
+    background-color: hotpink;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    width: 200px;
+    padding: 8px;
+    
+}
+
+.container-2 {
+    background-color: chocolate;
+    height: 250px;
+    display: flex;
+}
+.coluna-1{
+    background-color: tan;
+    width: 200px;
+    flex: 1
+}
+.coluna-2{
+    background-color: aqua;
+    flex: 2;
+}
+.coluna-3{
+    background-color: tomato;
+    width: 200px;
+    flex: 1
+}
