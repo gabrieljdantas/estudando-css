@@ -1,0 +1,10 @@
+.btn-success {
+    background-color: hotpink;
+    
+}
+.container-carrocel{
+    margin: 20px;
+}
+.carousel-inner {
+    height: 350px;
+}
